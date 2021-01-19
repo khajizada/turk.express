@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Java Blog</title>
+    <!-- MDB icon -->
+    <link rel="icon" href="img/java.png" type="image/x-icon">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+    <!-- Line Awesome -->
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
+    <!-- Google Fonts Roboto -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <!-- BootStrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Material Design Bootstrap -->
+    <link rel="stylesheet" href="css/mdb.min.css">
+    <!-- Your custom styles (optional) -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Start your project here-->
+    <div class="hero">
+        <!-- --------------------------------------------------------------------------------------- -->
+
+        <!-- --------------------------------------------------------------------------------------- -->
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-light" id="mainNavBar">
+            <div class="logo-box"><img src="./img/logowhite2.png" alt=""></div>
+            <button class="navbar-toggler" id="hamburgerMenu" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <div id="hamburgerLine">
+                 <span></span>
+                 <span></span>
+                 <span></span>
+               </div>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" id="menuNavLink" href="#">Baş səhifə</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="menuNavLink" href="#">Mövzular</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="menuNavLink" href="#">Sual-Cavab</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="menuNavLink" href="#linkfooter">Bizə yazın</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav">
+                    <li class="nav-item" id="userBox">
+                        <a href="#"><i id="slack" class="lab la-slack"></i></a>
+                        <a href="#"><i id="github" class="lab la-github"></i></a>
+                        <a href="#"><i id="twitter" class="lab la-twitter"></i></a>
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+        <!-- Navbar -->
+        <!-- --------------------------------------------------------------------------------------- -->
+
+        <!-- --------------------------------------------------------------------------------------- -->
+        <!-- WELCOME AREA -->
+        <div class="welcome-area">
+            <div class="left-box">
+                <div class="header">Öyrənmək istəyirsən ?</div>
+                <div class="description">Siz Java və ya hər hansı bir proqramlaşdırma dilini öyrənməklə bir çox qaranlıq məqamı özlüyünüzdə aydınlaşdıra bilərsiniz. <br> Bunun sadəcə bir dildən və ya bir mövzudan başlayıb öyrənmək lazımdır.
+                    <br> Öyrənmək isə bir düymə qədər yaxındır.
+                </div>
+                <!-- <a href="#" class="btn-start"></a> -->
+                <!-- Button trigger modal -->
+
+                <!-- <a id="modalActivate" class="btn-start waves-effect"> -->
+                <i class="las la-arrow-right"></i>
+                <!-- </a> -->
+            </div>
+            <div class="right-box">
+                <!-- <img src="./img/comp.png" alt=""> -->
+                <!-- START READIND AREA ######################################################### -->
+                <div class="read-box">
+                    <div class="start-btn"><a href="#filterSubjectArea">başla</a></div>
+                </div>
+            </div>
+        </div>
+        <!-- WELCOME AREA END -->
+        <!-- --------------------------------------------------------------------------------------- -->
+
+
+        <!-- --------------------------------------------------------------------------------------- -->
+        <div class="features-box">
+            <div class="row text-center d-flex justify-content-center">
+                <div class="col-lg-4 col-md-12 mb-4">
+                    <div class="view card-img-100 mx-auto mb-4">
+                        <img src="https://mdbootstrap.com/img/illustrations/drawkit-drawing-man-colour.svg" class="img-fluid" alt="smaple image">
+                    </div>
+                    <h5 class="font-weight-normal mb-4">Sən başla
+                        <i class="las la-arrow-right"></i>
+
+                    </h5>
+                    <p class="text-muted px-2 mb-lg-0">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="view card-img-100 mx-auto mb-4">
+                        <img src="https://mdbootstrap.com/img/illustrations/drawkit-phone-conversation-colour.svg" class="img-fluid" alt="smaple image">
+                    </div>
+                    <h5 class="font-weight-normal mb-4">Mövzunu tapmasan
+                        <i class="las la-arrow-right"></i>
+
+                    </h5>
+                    <p class="text-muted px-2 mb-lg-0">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="view card-img-100 mx-auto mb-4">
+                        <img src="https://mdbootstrap.com/img/illustrations/app-user-colour.svg" class="img-fluid" alt="smaple image">
+                    </div>
+                    <h5 class="smooth-scroll list-unstyled mb-4 "><a href="#contactUs" class="features-contact-btn ">Bizə yaz</a></h5>
+                    <p class="text-muted px-2 mb-md-0">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- --------------------------------------------------------------------------------------- -->
+        <!-- Button trigger modal -->
+
+        <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalKanan">
+             Launch demo modal
+         </button> -->
+
+        <!-- Modal -->
+        <div class="modal fade subject-modal" id="directModal100" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable">
+                <div class="modal-content">
+
+
+
+
+
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Java'da DataType</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            Geri
+                        </button>
+                    </div>
+
+
+
+                    <div class="modal-body">
+
+
+
+                        <p class="note note-success"><strong>Note danger:</strong> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum doloremque officia laboriosam. Itaque ex obcaecati architecto! Qui necessitatibus delectus placeat illo rem id nisi consequatur esse, sint
+                            perspiciatis soluta porro?</p>
+
+
+
+
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla ratione quia, assumenda libero ab tempora odio est, laborum voluptate aliquam consequuntur quis quibusdam repellat porro explicabo velit sunt! Quas minima, ab sed consectetur explicabo incidunt
+                        corporis facere perferendis at ad? Praesentium cumque soluta impedit vero mollitia aliquam perferendis odio incidunt commodi delectus at accusantium laboriosam odit, doloribus expedita. Nobis dicta omnis corporis, voluptatem delectus
+                        sint minima odit labore! Et similique optio sit! Asperiores corrupti suscipit ducimus repudiandae nemo dolorum nulla quo ab blanditiis cupiditate! Facilis maxime eaque animi officiis odit pariatur provident sequi quidem repellendus
+                        accusantium accusamus veritatis eligendi qui, aliquam aliquid in earum reprehenderit, modi, sit voluptate numquam. Ad nulla sequi doloribus deleniti illum quasi eligendi beatae provident voluptas quas, fugit nobis repellat dolorem
+                        voluptatum asperiores ipsa nam alias labore deserunt quod quos. Esse rerum enim inventore eveniet voluptatem magnam, a qui quidem ipsa adipisci deserunt sint doloribus provident tempora. Dolores iusto amet nulla quae reiciendis
+                        voluptas quis. Sit harum, exercitationem aspernatur nulla, vitae aliquam cum ad, alias quam dolor aut odit quasi atque ut cupiditate deleniti suscipit asperiores temporibus error nesciunt unde sequi. Ab aliquid iure earum blanditiis!
+                        Impedit vel aperiam quo magnam maxime quibusdam, cum cumque, eum et ducimus corporis nulla maiores laudantium. Odit, harum perspiciatis est molestias quia soluta voluptate debitis at veniam amet sed hic non eaque ad aspernatur
+                        praesentium sapiente necessitatibus facilis? Nisi magnam in est cupiditate ad eligendi explicabo ullam enim similique sint neque obcaecati quo facilis voluptatum earum consequuntur tempora sunt doloribus, distinctio blanditiis
+                        nam. Blanditiis sequi quasi molestiae sunt voluptatum velit laborum reprehenderit natus sed, beatae corrupti facilis minima quidem. Ducimus distinctio commodi voluptatum aut cupiditate harum aliquid blanditiis saepe. Ipsa doloremque
+                        dolores quibusdam facere illo nesciunt sint magni voluptas. Asperiores minima nemo cum dolor repellat praesentium aut quod consectetur! Soluta provident quo corporis. Esse voluptate at vitae explicabo quos inventore, voluptatibus
+                        deleniti voluptatem ab consectetur delectus sunt nam animi culpa dolorum laboriosam earum magnam velit saepe officia quaerat fuga a nemo. Fugit consequatur cum voluptates vero ut, odio quidem architecto veritatis laboriosam sunt,
+                        asperiores optio, necessitatibus labore soluta voluptatem nostrum sit et officia dicta? Blanditiis, velit minima consequuntur distinctio recusandae sit qui sed tempora quo eum incidunt nihil harum illum, praesentium veniam laboriosam
+                        enim! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla ratione quia, assumenda libero ab tempora odio est, laborum voluptate aliquam consequuntur quis quibusdam repellat porro explicabo velit sunt! Quas minima, ab
+                        sed consectetur explicabo incidunt corporis facere perferendis at ad? Praesentium cumque soluta impedit vero mollitia aliquam perferendis odio incidunt commodi delectus at accusantium laboriosam odit, doloribus expedita. Nobis
+                        dicta omnis corporis, voluptatem delectus sint minima odit labore! Et similique optio sit! Asperiores corrupti suscipit ducimus repudiandae nemo dolorum nulla quo ab blanditiis cupiditate! Facilis maxime eaque animi officiis odit
+                        pariatur provident sequi quidem repellendus accusantium accusamus veritatis eligendi qui, aliquam aliquid in earum reprehenderit, modi, sit voluptate numquam. Ad nulla sequi doloribus deleniti illum quasi eligendi beatae provident
+                        voluptas quas, fugit nobis repellat dolorem voluptatum asperiores ipsa nam alias labore deserunt quod quos. Esse rerum enim inventore eveniet voluptatem magnam, a qui quidem ipsa adipisci deserunt sint doloribus provident tempora.
+                        Dolores iusto amet nulla quae reiciendis voluptas quis. Sit harum, exercitationem aspernatur nulla, vitae aliquam cum ad, alias quam dolor aut odit quasi atque ut cupiditate deleniti suscipit asperiores temporibus error nesciunt
+                        unde sequi. Ab aliquid iure earum blanditiis! Impedit vel aperiam quo magnam maxime quibusdam, cum cumque, eum et ducimus corporis nulla maiores laudantium. Odit, harum perspiciatis est molestias quia soluta voluptate debitis at
+                        veniam amet sed hic non eaque ad aspernatur praesentium sapiente necessitatibus facilis? Nisi magnam in est cupiditate ad eligendi explicabo ullam enim similique sint neque obcaecati quo facilis voluptatum earum consequuntur tempora
+                        sunt doloribus, distinctio blanditiis nam. Blanditiis sequi quasi molestiae sunt voluptatum velit laborum reprehenderit natus sed, beatae corrupti facilis minima quidem. Ducimus distinctio commodi voluptatum aut cupiditate harum
+                        aliquid blanditiis saepe. Ipsa doloremque dolores quibusdam facere illo nesciunt sint magni voluptas. Asperiores minima nemo cum dolor repellat praesentium aut quod consectetur! Soluta provident quo corporis. Esse voluptate at
+                        vitae explicabo quos inventore, voluptatibus deleniti voluptatem ab consectetur delectus sunt nam animi culpa dolorum laboriosam earum magnam velit saepe officia quaerat fuga a nemo. Fugit consequatur cum voluptates vero ut, odio
+                        quidem architecto veritatis laboriosam sunt, asperiores optio, necessitatibus labore soluta voluptatem nostrum sit et officia dicta? Blanditiis, velit minima consequuntur distinctio recusandae sit qui sed tempora quo eum incidunt
+                        nihil harum illum, praesentium veniam laboriosam enim! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla ratione quia, assumenda libero ab tempora odio est, laborum voluptate aliquam consequuntur quis quibusdam repellat
+                        porro explicabo velit sunt! Quas minima, ab sed consectetur explicabo incidunt corporis facere perferendis at ad? Praesentium cumque soluta impedit vero mollitia aliquam perferendis odio incidunt commodi delectus at accusantium
+                        laboriosam odit, doloribus expedita. Nobis dicta omnis corporis, voluptatem delectus sint minima odit labore! Et similique optio sit! Asperiores corrupti suscipit ducimus repudiandae nemo dolorum nulla quo ab blanditiis cupiditate!
+                        Facilis maxime eaque animi officiis odit pariatur provident sequi quidem repellendus accusantium accusamus veritatis eligendi qui, aliquam aliquid in earum reprehenderit, modi, sit voluptate numquam. Ad nulla sequi doloribus deleniti
+                        illum quasi eligendi beatae provident voluptas quas, fugit nobis repellat dolorem voluptatum asperiores ipsa nam alias labore deserunt quod quos. Esse rerum enim inventore eveniet voluptatem magnam, a qui quidem ipsa adipisci deserunt
+                        sint doloribus provident tempora. Dolores iusto amet nulla quae reiciendis voluptas quis. Sit harum, exercitationem aspernatur nulla, vitae aliquam cum ad, alias quam dolor aut odit quasi atque ut cupiditate deleniti suscipit asperiores
+                        temporibus error nesciunt unde sequi. Ab aliquid iure earum blanditiis! Impedit vel aperiam quo magnam maxime quibusdam, cum cumque, eum et ducimus corporis nulla maiores laudantium. Odit, harum perspiciatis est molestias quia
+                        soluta voluptate debitis at veniam amet sed hic non eaque ad aspernatur praesentium sapiente necessitatibus facilis? Nisi magnam in est cupiditate ad eligendi explicabo ullam enim similique sint neque obcaecati quo facilis voluptatum
+                        earum consequuntur tempora sunt doloribus, distinctio blanditiis nam. Blanditiis sequi quasi molestiae sunt voluptatum velit laborum reprehenderit natus sed, beatae corrupti facilis minima quidem. Ducimus distinctio commodi voluptatum
+                        aut cupiditate harum aliquid blanditiis saepe. Ipsa doloremque dolores quibusdam facere illo nesciunt sint magni voluptas. Asperiores minima nemo cum dolor repellat praesentium aut quod consectetur! Soluta provident quo corporis.
+                        Esse voluptate at vitae explicabo quos inventore, voluptatibus deleniti voluptatem ab consectetur delectus sunt nam animi culpa dolorum laboriosam earum magnam velit saepe officia quaerat fuga a nemo. Fugit consequatur cum voluptates
+                        vero ut, odio quidem architecto veritatis laboriosam sunt, asperiores optio, necessitatibus labore soluta voluptatem nostrum sit et officia dicta? Blanditiis, velit minima consequuntur distinctio recusandae sit qui sed tempora
+                        quo eum incidunt nihil harum illum, praesentium veniam laboriosam enim! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla ratione quia, assumenda libero ab tempora odio est, laborum voluptate aliquam consequuntur quis
+                        quibusdam repellat porro explicabo velit sunt! Quas minima, ab sed consectetur explicabo incidunt corporis facere perferendis at ad? Praesentium cumque soluta impedit vero mollitia aliquam perferendis odio incidunt commodi delectus
+                        at accusantium laboriosam odit, doloribus expedita. Nobis dicta omnis corporis, voluptatem delectus sint minima odit labore! Et similique optio sit! Asperiores corrupti suscipit ducimus repudiandae nemo dolorum nulla quo ab blanditiis
+                        cupiditate! Facilis maxime eaque animi officiis odit pariatur provident sequi quidem repellendus accusantium accusamus veritatis eligendi qui, aliquam aliquid in earum reprehenderit, modi, sit voluptate numquam. Ad nulla sequi
+                        doloribus deleniti illum quasi eligendi beatae provident voluptas quas, fugit nobis repellat dolorem voluptatum asperiores ipsa nam alias labore deserunt quod quos. Esse rerum enim inventore eveniet voluptatem magnam, a qui quidem
+                        ipsa adipisci deserunt sint doloribus provident tempora. Dolores iusto amet nulla quae reiciendis voluptas quis. Sit harum, exercitationem aspernatur nulla, vitae aliquam cum ad, alias quam dolor aut odit quasi atque ut cupiditate
+                        deleniti suscipit asperiores temporibus error nesciunt unde sequi. Ab aliquid iure earum blanditiis! Impedit vel aperiam quo magnam maxime quibusdam, cum cumque, eum et ducimus corporis nulla maiores laudantium. Odit, harum perspiciatis
+                        est molestias quia soluta voluptate debitis at veniam amet sed hic non eaque ad aspernatur praesentium sapiente necessitatibus facilis? Nisi magnam in est cupiditate ad eligendi explicabo ullam enim similique sint neque obcaecati
+                        quo facilis voluptatum earum consequuntur tempora sunt doloribus, distinctio blanditiis nam. Blanditiis sequi quasi molestiae sunt voluptatum velit laborum reprehenderit natus sed, beatae corrupti facilis minima quidem. Ducimus
+                        distinctio commodi voluptatum aut cupiditate harum aliquid blanditiis saepe. Ipsa doloremque dolores quibusdam facere illo nesciunt sint magni voluptas. Asperiores minima nemo cum dolor repellat praesentium aut quod consectetur!
+                        Soluta provident quo corporis. Esse voluptate at vitae explicabo quos inventore, voluptatibus deleniti voluptatem ab consectetur delectus sunt nam animi culpa dolorum laboriosam earum magnam velit saepe officia quaerat fuga a nemo.
+                        Fugit consequatur cum voluptates vero ut, odio quidem architecto veritatis laboriosam sunt, asperiores optio, necessitatibus labore soluta voluptatem nostrum sit et officia dicta? Blanditiis, velit minima consequuntur distinctio
+                        recusandae sit qui sed tempora quo eum incidunt nihil harum illum, praesentium veniam laboriosam enim! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla ratione quia, assumenda libero ab tempora odio est, laborum voluptate
+                        aliquam consequuntur quis quibusdam repellat porro explicabo velit sunt! Quas minima, ab sed consectetur explicabo incidunt corporis facere perferendis at ad? Praesentium cumque soluta impedit vero mollitia aliquam perferendis
+                        odio incidunt commodi delectus at accusantium laboriosam odit, doloribus expedita. Nobis dicta omnis corporis, voluptatem delectus sint minima odit labore! Et similique optio sit! Asperiores corrupti suscipit ducimus repudiandae
+                        nemo dolorum nulla quo ab blanditiis cupiditate! Facilis maxime eaque animi officiis odit pariatur provident sequi quidem repellendus accusantium accusamus veritatis eligendi qui, aliquam aliquid in earum reprehenderit, modi, sit
+                        voluptate numquam. Ad nulla sequi doloribus deleniti illum quasi eligendi beatae provident voluptas quas, fugit nobis repellat dolorem voluptatum asperiores ipsa nam alias labore deserunt quod quos. Esse rerum enim inventore eveniet
+                        voluptatem magnam, a qui quidem ipsa adipisci deserunt sint doloribus provident tempora. Dolores iusto amet nulla quae reiciendis voluptas quis. Sit harum, exercitationem aspernatur nulla, vitae aliquam cum ad, alias quam dolor
+                        aut odit quasi atque ut cupiditate deleniti suscipit asperiores temporibus error nesciunt unde sequi. Ab aliquid iure earum blanditiis! Impedit vel aperiam quo magnam maxime quibusdam, cum cumque, eum et ducimus corporis nulla
+                        maiores laudantium. Odit, harum perspiciatis est molestias quia soluta voluptate debitis at veniam amet sed hic non eaque ad aspernatur praesentium sapiente necessitatibus facilis? Nisi magnam in est cupiditate ad eligendi explicabo
+                        ullam enim similique sint neque obcaecati quo facilis voluptatum earum consequuntur tempora sunt doloribus, distinctio blanditiis nam. Blanditiis sequi quasi molestiae sunt voluptatum velit laborum reprehenderit natus sed, beatae
+                        corrupti facilis minima quidem. Ducimus distinctio commodi voluptatum aut cupiditate harum aliquid blanditiis saepe. Ipsa doloremque dolores quibusdam facere illo nesciunt sint magni voluptas. Asperiores minima nemo cum dolor repellat
+                        praesentium aut quod consectetur! Soluta provident quo corporis. Esse voluptate at vitae explicabo quos inventore, voluptatibus deleniti voluptatem ab consectetur delectus sunt nam animi culpa dolorum laboriosam earum magnam velit
+                        saepe officia quaerat fuga a nemo. Fugit consequatur cum voluptates vero ut, odio quidem architecto veritatis laboriosam sunt, asperiores optio, necessitatibus labore soluta voluptatem nostrum sit et officia dicta? Blanditiis,
+                        velit minima consequuntur distinctio recusandae sit qui sed tempora quo eum incidunt nihil harum illum, praesentium veniam laboriosam enim! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla ratione quia, assumenda
+                        libero ab tempora odio est, laborum voluptate aliquam consequuntur quis quibusdam repellat porro explicabo velit sunt! Quas minima, ab sed consectetur explicabo incidunt corporis facere perferendis at ad? Praesentium cumque soluta
+                        impedit vero mollitia aliquam perferendis odio incidunt commodi delectus at accusantium laboriosam odit, doloribus expedita. Nobis dicta omnis corporis, voluptatem delectus sint minima odit labore! Et similique optio sit! Asperiores
+                        corrupti suscipit ducimus repudiandae nemo dolorum nulla quo ab blanditiis cupiditate! Facilis maxime eaque animi officiis odit pariatur provident sequi quidem repellendus accusantium accusamus veritatis eligendi qui, aliquam aliquid
+                        in earum reprehenderit, modi, sit voluptate numquam. Ad nulla sequi doloribus deleniti illum quasi eligendi beatae provident voluptas quas, fugit nobis repellat dolorem voluptatum asperiores ipsa nam alias labore deserunt quod
+                        quos. Esse rerum enim inventore eveniet voluptatem magnam, a qui quidem ipsa adipisci deserunt sint doloribus provident tempora. Dolores iusto amet nulla quae reiciendis voluptas quis. Sit harum, exercitationem aspernatur nulla,
+                        vitae aliquam cum ad, alias quam dolor aut odit quasi atque ut cupiditate deleniti suscipit asperiores temporibus error nesciunt unde sequi. Ab aliquid iure earum blanditiis! Impedit vel aperiam quo magnam maxime quibusdam, cum
+                        cumque, eum et ducimus corporis nulla maiores laudantium. Odit, harum perspiciatis est molestias quia soluta voluptate debitis at veniam amet sed hic non eaque ad aspernatur praesentium sapiente necessitatibus facilis? Nisi magnam
+                        in est cupiditate ad eligendi explicabo ullam enim similique sint neque obcaecati quo facilis voluptatum earum consequuntur tempora sunt doloribus, distinctio blanditiis nam. Blanditiis sequi quasi molestiae sunt voluptatum velit
+                        laborum reprehenderit natus sed, beatae corrupti facilis minima quidem. Ducimus distinctio commodi voluptatum aut cupiditate harum aliquid blanditiis saepe. Ipsa doloremque dolores quibusdam facere illo nesciunt sint magni voluptas.
+                        Asperiores minima nemo cum dolor repellat praesentium aut quod consectetur! Soluta provident quo corporis. Esse voluptate at vitae explicabo quos inventore, voluptatibus deleniti voluptatem ab consectetur delectus sunt nam animi
+                        culpa dolorum laboriosam earum magnam velit saepe officia quaerat fuga a nemo. Fugit consequatur cum voluptates vero ut, odio quidem architecto veritatis laboriosam sunt, asperiores optio, necessitatibus labore soluta voluptatem
+                        nostrum sit et officia dicta? Blanditiis, velit minima consequuntur distinctio recusandae sit qui sed tempora quo eum incidunt nihil harum illum, praesentium veniam laboriosam enim! Tempora reprehenderit impedit perspiciatis dignissimos
+                        excepturi soluta cum atque, similique odio, error optio pariatur ad illum quaerat cumque. Autem adipisci, enim delectus quo corrupti placeat assumenda?
+                    </div>
+                    <!-- <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <!-- Modal -->
+        <!-- --------------------------------------------------------------------------------------- -->
+
+
+
+        <!-- --------------------------------------------------------------------------------------- -->
+        <!-- FILTER SUBJECT AREA -->
+        <div class="filter-subject-area" id="filterSubjectArea">
+            <div id="myBtnContainer">
+                <button class="btn-filter waves-effect active" onclick="filterSelection('all')">Hamısı</button>
+                <button class="btn-filter waves-effect" onclick="filterSelection('test')">Giriş</button>
+                <button class="btn-filter waves-effect" onclick="filterSelection('data-type')">DataType</button>
+                <button class="btn-filter waves-effect" onclick="filterSelection('java-oprators')">Operatorlar</button>
+                <button class="btn-filter waves-effect" onclick="filterSelection('fruits')">Şərt blokları</button>
+                <button class="btn-filter waves-effect" onclick="filterSelection('colors')">Paketlər</button>
+            </div>
+
+
+            <div class="containerFilter">
+
+                <div data-toggle="modal" data-target="#directModal100" class="subject-box waves-effect filterDiv test">
+                    <div class="box">test</div>
+                </div>
+
+                <div data-toggle="modal" data-target="#directModal100" class="subject-box waves-effect filterDiv fruits">
+                    <div class="box">fruits</div>
+                </div>
+
+                <div data-toggle="modal" data-target="#directModal100" class="subject-box waves-effect filterDiv test">
+                    <div class="box">test</div>
+                </div>
+
+                <div data-toggle="modal" data-target="#directModal100" class="subject-box waves-effect filterDiv colors">
+                    <div class="box">colors</div>
+                </div>
+
+                <div data-toggle="modal" data-target="#directModal100" class="subject-box waves-effect filterDiv java-oprators">
+                    <div class="box">Arithmetic Operators</div>
+                </div>
+
+                <div data-toggle="modal" data-target="#directModal100" class="subject-box waves-effect filterDiv colors">
+                    <div class="box">colors</div>
+                </div>
+
+                <div data-toggle="modal" data-target="#directModal100" class="subject-box waves-effect filterDiv data-type">
+                    <div class="box">DataType</div>
+                </div>
+
+                <div data-toggle="modal" data-target="#directModal100" class="subject-box waves-effect filterDiv data-type">
+                    <div class="box">DataType</div>
+                </div>
+
+                <div data-toggle="modal" data-target="#directModal100" class="subject-box waves-effect filterDiv data-type">
+                    <div class="box">DataType</div>
+                </div>
+
+                <div data-toggle="modal" data-target="#directModal100" class="subject-box waves-effect filterDiv colors">
+                    <div class="box">colors</div>
+                </div>
+
+                <div data-toggle="modal" data-target="#directModal100" class="subject-box waves-effect filterDiv java-oprators">
+                    <div class="box">Unary Operators</div>
+                </div>
+
+                <div data-toggle="modal" data-target="#directModal100" class="subject-box waves-effect filterDiv java-oprators">
+                    <div class="box">Assignment Operators</div>
+                </div>
+
+                <div data-toggle="modal" data-target="#directModal100" class="subject-box waves-effect filterDiv fruits">
+                    <div class="box">fruits</div>
+                </div>
+
+                <div data-toggle="modal" data-target="#directModal100" class="subject-box waves-effect filterDiv fruits">
+                    <div class="box">fruits</div>
+                </div>
+
+                <div data-toggle="modal" data-target="#directModal100" class="subject-box waves-effect filterDiv fruits">
+                    <div class="box">fruits</div>
+                </div>
+
+                <div data-toggle="modal" data-target="#directModal100" class="subject-box waves-effect filterDiv fruits">
+                    <div class="box">fruits</div>
+                </div>
+
+                <div data-toggle="modal" data-target="#directModal100" class="subject-box waves-effect filterDiv java-oprators">
+                    <div class="box">Relational Operators</div>
+                </div>
+            </div>
+        </div>
+        <!-- FILTER SUBJECT AREA -->
+        <!-- --------------------------------------------------------------------------------------- -->
+
+
+        <!-- --------------------------------------------------------------------------------------- -->
+        <!-- CARD CONTAINER -->
+
+        <!-- <div class="card-container">
+            <div class="row">
+
+
+                <div class="col-md-4 mb-4">
+                    <div class="card card-box">
+                        <div class="view overlay">
+                            <div class="card-code-box">
+                                <code class="main-code">
+                                 <span>&lt</span><code>head</code><span>&gt</span> <br>
+
+                                <span>&lt</span><code>/head</code><span>&gt</span> <br>
+
+                                <span>&lt</span><code>body</code><span>&gt</span> <br>
+                                <span>&lt</span><code>h5</code><span>&gt</span> Hello World
+                                <span>&lt</span><code>/h5</code><span>&gt</span><br>
+
+                                <span>&lt</span><code>a</code><span>&gt</span> Hello World
+                                <span>&lt</span><code>/a</code><span>&gt</span><br>
+
+                                <span>&lt</span><code>div</code><span>&gt</span> Hello World
+                                <span>&lt</span><code>/div</code><span>&gt</span><br>
+                                <span>&lt</span><code>/body</code><span>&gt</span>
+                                </code>
+                            </div>
+                            <a>
+                                <div class="mask rgba-white-slight"></div>
+                            </a>
+                        </div>
+                        <a class="btn-floating btn-action ml-auto mr-4 btn">Daha çox<i class="las la-angle-right pl-1"></i></a>
+                        <div class="card-body">
+                            <h4 class="card-title">JDK'nı yükləmək və quraşdırmaq</h4>
+                            <hr>
+                            <p class="card-text text-muted font-weight-light">Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="col-md-4 mb-4">
+                    <div class="card card-box">
+                        <div class="view overlay">
+                            <div class="card-code-box">
+                                <code class="main-code">
+                         <span>&lt</span><code>head</code><span>&gt</span> <br>
+
+                                <span>&lt</span><code>/head</code><span>&gt</span> <br>
+
+                                <span>&lt</span><code>body</code><span>&gt</span> <br>
+                                <span>&lt</span><code>h5</code><span>&gt</span> Hello World
+                                <span>&lt</span><code>/h5</code><span>&gt</span><br>
+
+                                <span>&lt</span><code>a</code><span>&gt</span> Hello World
+                                <span>&lt</span><code>/a</code><span>&gt</span><br>
+
+                                <span>&lt</span><code>div</code><span>&gt</span> Hello World
+                                <span>&lt</span><code>/div</code><span>&gt</span><br>
+                                <span>&lt</span><code>/body</code><span>&gt</span>
+                                </code>
+                            </div>
+                            <a>
+                                <div class="mask rgba-white-slight"></div>
+                            </a>
+                        </div>
+                        <a class="btn-floating btn-action ml-auto mr-4 btn">Daha çox<i class="las la-angle-right pl-1"></i></a>
+                        <div class="card-body">
+                            <h4 class="card-title">Java'da "Data Type" anlayışı</h4>
+                            <hr>
+                            <p class="card-text text-muted font-weight-light">Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="col-md-4 mb-4">
+                    <div class="card card-box">
+                        <div class=" view overlay ">
+                            <div class="card-code-box ">
+                                <code class="main-code ">
+                                 <span>&lt</span><code>head</code><span>&gt</span> <br>
+
+                                <span>&lt</span><code>/head</code><span>&gt</span> <br>
+
+                                <span>&lt</span><code>body</code><span>&gt</span> <br>
+                                <span>&lt</span><code>h5</code><span>&gt</span> Hello World
+                                <span>&lt</span><code>/h5</code><span>&gt</span><br>
+
+                                <span>&lt</span><code>a</code><span>&gt</span> Hello World
+                                <span>&lt</span><code>/a</code><span>&gt</span><br>
+
+                                <span>&lt</span><code>div</code><span>&gt</span> Hello World
+                                <span>&lt</span><code>/div</code><span>&gt</span><br>
+                                <span>&lt</span><code>/body</code><span>&gt</span>
+                                </code>
+                            </div>
+                            <a>
+                                <div class="mask rgba-white-slight "></div>
+                            </a>
+                        </div>
+                        <a class="btn-floating btn-action ml-auto mr-4 btn ">Daha çox<i class="las la-angle-right pl-1 "></i></a>
+                        <div class="card-body ">
+                            <h4 class="card-title card-title-box ">"if ", "else if ", "else " blokları</h4>
+                            <hr>
+                            <p class="card-text text-muted font-weight-light ">Some quick example text to build on the card title and make up the bulk of the card's content. Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <!-- --------------------------------------------------------------------------------------- -->
+
+
+        <!-- --------------------------------------------------------------------------------------- -->
+        <!-- TAG CONTAINER -->
+        <div class="tag-container">
+            <div class="tag-line">
+                <a href="#">HTML5</a>
+                <a href="#">CSS3</a>
+                <a href="#">JavaScript</a>
+                <a href="#">VSCode</a>
+                <a href="#">ReactJS</a>
+                <a href="#">BootStrap</a>
+                <a href="#">VueJS</a>
+                <a href="#">MaterialDesign</a>
+                <a href="#">Java</a>
+
+                <a href="#">BootStrap</a>
+                <a href="#">JavaScript</a>
+                <a href="#">VSCode</a>
+                <a href="#">MaterialDesign</a>
+                <a href="#">Java</a>
+                <a href="#">ReactJS</a>
+                <a href="#">BootStrap</a>
+                <a href="#">VueJS</a>
+                <a href="#">HTML5</a>
+                <a href="#">CSS3</a>
+
+                <a href="#">JavaScript</a>
+                <a href="#">VSCode</a>
+                <a href="#">ReactJS</a>
+                <a href="#">BootStrap</a>
+                <a href="#">CSS3</a>
+                <a href="#">MaterialDesign</a>
+                <a href="#">Java</a>
+                <a href="#">VueJS</a>
+                <a href="#">HTML5</a>
+            </div>
+        </div>
+        <!-- TAG CONTAINER END-->
+        <!-- --------------------------------------------------------------------------------------- -->
+
+
+        <!-- --------------------------------------------------------------------------------------- -->
+        <!--Section: Content-->
+        <div class="contact-us">
+            <section id="contactUs" class="text-center px-md-5 mx-md-5 dark-grey-text">
+
+                <!-- Section heading -->
+                <h3 class="font-weight-bold mb-4">Bizimlə əlaqə</h3>
+                <!-- Section description -->
+                <p class="text-center w-responsive mx-auto mb-5">Siz bizimlə əlaqə saxlayaraq mövzularla bağlı təklif və ya hər hansı bir iradınız varsa, bizə bildirə bilərsiniz. Sizin fikriniz bizim üçün çox önəmlidir.
+                </p>
+
+                <!-- Contact Form  ---------------------------------- -->
+                <div class="row">
+                    <div class="col-md mb-md-0 mb-5">
+                        <form>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="md-form mb-0">
+                                        <input type="text" id="contact-name" class="form-control">
+                                        <label for="contact-name" class="">Adınız</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="md-form mb-0">
+                                        <input type="text" id="contact-email" class="form-control">
+                                        <label for="contact-email" class="">E-poçt ünvanınız</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="md-form mb-0">
+                                        <input type="text" id="contact-Subject" class="form-control">
+                                        <label for="contact-Subject" class="">Mövzu</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="md-form">
+                                        <textarea id="contact-message" class="form-control md-textarea" rows="3"></textarea>
+                                        <label for="contact-message">Mesajınız</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                        <div class="text-center text-md-left">
+                            <a class="btn btn-contact-us">Mesajı göndər</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- Contact Form end ---------------------------------- -->
+        <!-- --------------------------------------------------------------------------------------- -->
+
+        <!-- --------------------------------------------------------------------------------------- -->
+        <!-- Footer -->
+        <div class="footer " id="footer ">
+            <div class="company ">&copy JAVACHI | Veb-Blog</div>
+            <div class="rights ">Bütün hüquqlar qorunur.</div>
+        </div>
+        <!-- Footer End-->
+        <!-- --------------------------------------------------------------------------------------- -->
+
+
+        <!-- Online Message & WhatsApp button -->
+        <a href="#mainNavBar " class="toTopBtn "><i class="las la-angle-up "></i></a>
+        <a class="direct-message-btn" data-toggle="modal" data-target="#directModal">
+            <div class="dot-box">
+                <div class="dot dot-1 "></div>
+                <div class="dot dot-2 "></div>
+                <div class="dot dot-3 "></div>
+            </div>
+        </a>
+
+        <!-- Modal -->
+        <div class="modal fade" id="directModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog directDialog ">
+                <div class="modal-content directContent ">
+                    <div class="modal-header directHeader ">
+                        <h5 class="modal-title " id="exampleModalLabel ">Mesaj qutusu</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                    </div>
+                    <div class="modal-body ">
+                        <div class="form-group " id="formGroup ">
+                            <input type="text " class="form-control directInput " placeholder="Adınız " required>
+                        </div>
+
+                        <div class="form-group " id="formGroup ">
+                            <input type="text " class="form-control directInput " placeholder="Soyadınız " required>
+                        </div>
+
+                        <div class="form-group " id="formGroup ">
+                            <input type="email " class="form-control directInput " placeholder="E-poçt ünvanınız " required>
+                        </div>
+
+                        <div class="form-group " id="formGroup ">
+                            <textarea class="form-control directTextArea directInput " id="exampleFormControlTextarea1 " rows="3 " placeholder="Mesajınız "></textarea>
+                        </div>
+                    </div>
+
+                    <div class="modal-footer directFooter ">
+                        <button type="button " class="btn directClose " data-dismiss="modal ">Bağla</button>
+                        <button type="button " class="btn directSubmit ">Göndər</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal End -->
+        <!-- End your project here-->
+        <!-- --------------------------------------------------------------------------------- -->
+
+
+
+
+
+
+        <!-- TAG FOR RIGHT SIDEBAR ######################################################### -->
+        <div class="tag-for-sidebar">
+            <div class="line"></div>
+            <div class="text">KODLAŞDIRMADAKI ALTERNATİV</div>
+        </div>
+
+        <!-- jQuery -->
+        <script type="text/javascript " src="js/jquery.min.js "></script>
+        <!-- Bootstrap tooltips -->
+        <script type="text/javascript " src="js/popper.min.js "></script>
+        <!-- Bootstrap core JavaScript -->
+        <script type="text/javascript " src="js/bootstrap.min.js "></script>
+        <!-- MDB core JavaScript -->
+        <script type="text/javascript " src="js/mdb.min.js "></script>
+        <!-- Your custom scripts (optional) -->
+        <script type="text/javascript " src="js/filterLesson.js"></script>
+    </div>
+</body>
+
+</html>
